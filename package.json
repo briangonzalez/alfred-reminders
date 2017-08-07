@@ -1,0 +1,40 @@
+{
+  "name": "alfred-reminders",
+  "version": "0.0.0",
+  "description": "Show and complete reminders.",
+  "license": "MIT",
+  "repository": "briangonzalez/alfred-reminders",
+  "author": {
+    "name": "Brian Gonzalez",
+    "email": "me@briangonzalez.org",
+    "url": "briangonzalez.org"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "jest",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist",
+    "bin/",
+    "lib/",
+    "5BC1DF5E-EB57-463A-9999-5079E5695C72.png"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^10.2.1",
+    "jest": "^20.0.4"
+  }
+}
