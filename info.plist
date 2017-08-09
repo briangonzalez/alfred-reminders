@@ -46,6 +46,16 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>FF193847-7D83-4D74-880B-E3DC6FC76605</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>05F4651F-0CDD-4900-B9F7-849514B46320</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -135,6 +145,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Success!</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>FF193847-7D83-4D74-880B-E3DC6FC76605</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>argumenttrimmode</key>
@@ -190,7 +221,7 @@
 			<key>type</key>
 			<string>alfred.workflow.utility.debug</string>
 			<key>uid</key>
-			<string>93F83C28-55E2-446F-8937-7A9D4215547E</string>
+			<string>05F4651F-0CDD-4900-B9F7-849514B46320</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -207,7 +238,7 @@
 			<key>type</key>
 			<string>alfred.workflow.utility.debug</string>
 			<key>uid</key>
-			<string>05F4651F-0CDD-4900-B9F7-849514B46320</string>
+			<string>93F83C28-55E2-446F-8937-7A9D4215547E</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -218,6 +249,8 @@
 	<dict>
 		<key>05F4651F-0CDD-4900-B9F7-849514B46320</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
 			<key>xpos</key>
 			<integer>660</integer>
 			<key>ypos</key>
@@ -225,6 +258,8 @@
 		</dict>
 		<key>15B45775-5A58-4EAB-B7C9-444E75970BAF</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
 			<key>xpos</key>
 			<integer>260</integer>
 			<key>ypos</key>
@@ -232,6 +267,8 @@
 		</dict>
 		<key>5BC1DF5E-EB57-463A-9999-5079E5695C72</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
 			<key>xpos</key>
 			<integer>60</integer>
 			<key>ypos</key>
@@ -239,6 +276,8 @@
 		</dict>
 		<key>920BB70E-2927-4C17-A250-EA6C7C35B84C</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
 			<key>note</key>
 			<string>Complete</string>
 			<key>xpos</key>
@@ -248,10 +287,21 @@
 		</dict>
 		<key>93F83C28-55E2-446F-8937-7A9D4215547E</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
 			<key>xpos</key>
 			<integer>440</integer>
 			<key>ypos</key>
-			<integer>220</integer>
+			<integer>230</integer>
+		</dict>
+		<key>FF193847-7D83-4D74-880B-E3DC6FC76605</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>xpos</key>
+			<integer>680</integer>
+			<key>ypos</key>
+			<integer>30</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>

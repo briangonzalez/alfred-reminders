@@ -8,8 +8,8 @@ const lists = reminders
   .map((list, index) => {
     const length = reminders.getRemindersInList(list).length
     return {
-      title: `${list} List`,
-      subtitle: `Show all ${length} ${length === 1 ? 'reminder' : 'reminders'} in "${list}"`,
+      title: `${list}`,
+      subtitle: `Show all ${length} ${length === 1 ? 'reminder' : 'reminders'}`,
       arg: list
     }
   })

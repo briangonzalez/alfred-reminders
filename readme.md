@@ -14,7 +14,7 @@ $ npm install --global alfred-reminders
 
 ## Usage
 
-- In Alfred, type `r` followed by a space
+- In Alfred, type `r` followed by a space. You can type to sort your lists.
 - Once a list is selected, begin typing to create a reminder
 
 
