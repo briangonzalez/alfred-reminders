@@ -9,7 +9,7 @@ const lists = reminders
     const length = reminders.getRemindersInList(list).length
     return {
       title: `${list} List`,
-      subtitle: `Show all ${length} reminder(s) in "${list}"`,
+      subtitle: `Show all ${length} ${length === 1 ? 'reminder' : 'reminders'} in "${list}"`,
       arg: list
     }
   })
