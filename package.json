@@ -13,7 +13,8 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "eslint . && jest",
+    "test": "jest",
+    "lint": "eslint .",
     "postinstall": "alfy-init",
     "preuninstall": "alfy-cleanup"
   },
