@@ -1,6 +1,6 @@
 {
   "name": "alfred-reminders",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Show and complete reminders.",
   "license": "MIT",
   "repository": "briangonzalez/alfred-reminders",
