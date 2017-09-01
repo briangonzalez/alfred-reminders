@@ -6,10 +6,9 @@ const lists = reminders
   .getLists()
   .filter(list => list.toLowerCase().includes(alfy.input.toLowerCase()))
   .map((list, index) => {
-    const length = reminders.getRemindersInList(list).length
     return {
       title: `${list}`,
-      subtitle: `Show all ${length} ${length === 1 ? 'reminder' : 'reminders'}`,
+      subtitle: `Show all reminders in ${list} list`,
       arg: list
     }
   })

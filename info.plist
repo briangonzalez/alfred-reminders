@@ -18,16 +18,6 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>93F83C28-55E2-446F-8937-7A9D4215547E</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
 		</array>
 		<key>5BC1DF5E-EB57-463A-9999-5079E5695C72</key>
 		<array>
@@ -67,9 +57,9 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string></string>
+	<string>Brian Gonzalez</string>
 	<key>description</key>
-	<string></string>
+	<string>Show and complete reminders.</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -225,23 +215,6 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>'{query}', {allvars}</string>
-				<key>cleardebuggertext</key>
-				<false/>
-				<key>processoutputs</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.debug</string>
-			<key>uid</key>
-			<string>93F83C28-55E2-446F-8937-7A9D4215547E</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -285,15 +258,6 @@
 			<key>ypos</key>
 			<integer>30</integer>
 		</dict>
-		<key>93F83C28-55E2-446F-8937-7A9D4215547E</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>1</integer>
-			<key>xpos</key>
-			<integer>440</integer>
-			<key>ypos</key>
-			<integer>230</integer>
-		</dict>
 		<key>FF193847-7D83-4D74-880B-E3DC6FC76605</key>
 		<dict>
 			<key>colorindex</key>
@@ -304,7 +268,9 @@
 			<integer>30</integer>
 		</dict>
 	</dict>
+	<key>version</key>
+	<string>0.0.1</string>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/briangonzalez/alfred-reminders#readme</string>
 </dict>
 </plist>
